@@ -1408,3 +1408,5 @@ header .pull-right { padding-top: 8px; }
 .cbi-section-table tbody tr:hover td, .cbi-section-table tbody tr:hover th  {
   background-color: #f5f5f5;
 }
+.left { text-align: left !important; }
+.right { text-align: right !important; }
