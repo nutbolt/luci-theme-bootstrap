@@ -4,6 +4,10 @@ BOOTSTRAP FOR LUCI
 Bootstrap is a theme for LuCI - the web configuration interface commonly found on OpenWrt installation. It is based on Bootstrap, Twitter's toolkit for kickstarting CSS for websites, apps, and more. 
 It includes base CSS styles for typography, forms, buttons, tables, grids, navigation, alerts, and more.
 
+![Bootstrap for LuCI](http://nut-bolt.nl/assets/LuCI-bootstrap.png)
+
+It is currently not included in the default OpenWrt package repository so you'll have to compile it yourself.
+
 
 Bug tracker
 -----------
