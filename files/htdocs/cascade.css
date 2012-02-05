@@ -432,7 +432,6 @@ textarea,
 select,
 .uneditable-input {
   display: inline-block;
-  width: 210px;
   height: 18px;
   padding: 4px;
   font-size: 13px;
@@ -465,6 +464,7 @@ input[type=file] {
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
+  width: auto;
 }
 input[type=button], input[type=reset], input[type=submit] {
   width: auto;
@@ -1382,6 +1382,10 @@ a.label:hover {
 }
 /* LuCI specific items */
 .hidden { display: none }
+.left { text-align: left !important; }
+.right { text-align: right !important; }
+form.inline { display: inline }
+/* LuCI specific overrides for backward-compatibility */
 #memtotal > div,
 #memfree > div,
 #memcache > div,
@@ -1398,7 +1402,6 @@ a.label:hover {
 #xhr_poll_status {
     cursor: pointer;
 }
-form.inline { display: inline }
 header .pull-right { padding-top: 8px; }
 #modemenu li:last-child span.divider { display: none }
 #syslog {  width: 100%; }
@@ -1408,5 +1411,4 @@ header .pull-right { padding-top: 8px; }
 .cbi-section-table tbody tr:hover td, .cbi-section-table tbody tr:hover th  {
   background-color: #f5f5f5;
 }
-.left { text-align: left !important; }
-.right { text-align: right !important; }
+input[type=image] { height: auto; width: auto !important; padding: 0 !important }
