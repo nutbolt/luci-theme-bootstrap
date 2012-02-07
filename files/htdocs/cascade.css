@@ -415,11 +415,11 @@ label {
   padding-top: 6px;
   font-size: 13px;
   line-height: 18px;
-  float: left;
   width: 130px;
   text-align: right;
   color: #404040;
 }
+.cbi-value > label { float: left; }
 form .input,
 form .cbi-value-field {
   margin-left: 150px;
