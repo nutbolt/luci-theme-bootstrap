@@ -18,10 +18,11 @@ include $(INCLUDE_DIR)/package.mk
 define Package/luci-theme-$(THEME_NAME)
   SECTION:=luci
   CATEGORY:=LuCI
-  SUBMENU:=Themes
+  SUBMENU:=9. Themes
   DEPENDS:=+luci-theme-base
   TITLE:=LuCI Theme - $(THEME_TITLE)
   URL:=http://nut-bolt.nl/
+  PKGARCH:=all
 endef
 
 define Build/Configure
