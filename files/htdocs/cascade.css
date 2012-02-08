@@ -391,6 +391,7 @@ form .clearfix,
 form .cbi-value {
   margin-bottom: 18px;
   zoom: 1;
+  clear: both;
 }
 form .clearfix:before, form .clearfix:after,
 form .cbi-value:before, form .cbi-value:after  {
@@ -415,14 +416,14 @@ label {
   padding-top: 6px;
   font-size: 13px;
   line-height: 18px;
-  width: 130px;
+  width: 160px;
   text-align: right;
   color: #404040;
 }
 .cbi-value > label { float: left; }
 form .input,
 form .cbi-value-field {
-  margin-left: 150px;
+  margin-left: 180px;
 }
 input[type=checkbox], input[type=radio] {
   cursor: pointer;
@@ -1394,7 +1395,6 @@ form.inline { display: inline }
     border: 1px solid #CCCCCC;
     border-radius: 3px 3px 3px 3px;
     color: #808080;
-    display: inline-block;
     font-size: 13px;
     height: 22 dpx;
     line-height: 18px;
