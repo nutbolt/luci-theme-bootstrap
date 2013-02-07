@@ -29,7 +29,7 @@ Bug tracker
 
 Have a bug? Please create an issue here on GitHub!
 
-https://github.com/Nut-Bolt/luci-theme-bootstrap/issues
+https://github.com/nutbolt/luci-theme-bootstrap/issues
 
 
 Authors
